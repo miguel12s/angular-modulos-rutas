@@ -7,7 +7,8 @@ import { RegisterComponent } from './pages/register/register.component';
 const routes: Routes = [
   {path:'',component:LayoutComponent,children:[
     {path:'login',component:LoginComponent},
-    {path:'register',component:RegisterComponent}
+    {path:'register',component:RegisterComponent},
+    {path:'',redirectTo:'login',pathMatch:'full'}
   ]},
   {path:'**',redirectTo:'login',pathMatch:'full'}
 

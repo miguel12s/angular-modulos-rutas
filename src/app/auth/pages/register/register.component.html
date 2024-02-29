@@ -3,36 +3,36 @@
     <div class="m-5">
         <h1 class="text-center w-100 f-3 mb-3">Registrate</h1>
         <div class="text-center my-5">
-            <img src="../../../../assets/img/login.jpeg" alt="img" class="w-50 rounded-circle">
+            <img src="../../../../assets/img/registro.jfif" alt="img" class="w-75 rounded-circle">
 
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nombres y apellidos</label>
-            <input type="text" name="nombres" class="form-control" id="exampleInputEmail1" formControlName="nombres" aria-describedby="emailHelp" placeholder="">
+            <input type="text" name="nombres" class="form-control" id="exampleInputEmail1"  formControlName="nombres" aria-describedby="emailHelp" placeholder="nombres">
         </div>
       
     
     <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Profesion</label>
-      <input type="text" name="profesion" class="form-control" id="exampleInputPassword1" formControlName="profesion">
+      <input type="text" name="profesion" class="form-control" id="exampleInputPassword1" formControlName="profesion" placeholder="profesion">
     </div>
 
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Numero de telefono</label>
-        <input type="number" name="numero" class="form-control" id="exampleInputPassword1" formControlName="numero">
+        <input type="number" name="numero" class="form-control" id="exampleInputPassword1" formControlName="numero" placeholder="example:3146268888">
       </div>
 
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Correo electronico</label>
-        <input type="email" name="email"  class="form-control" id="eampleInputPassword1" formControlName="correo">
+        <input type="email" name="email"  class="form-control" id="eampleInputPassword1" formControlName="correo" placeholder="example:prueba@unibarranquilla.edu.co">
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword1"  class="form-label">Password</label>
-        <input type="password " name="password" class="form-control" id="exampleInputPassword1" formControlName="password">
+        <input type="password " name="password" class="form-control" id="exampleInputPassword1" formControlName="password" placeholder="password">
       </div>
 
     <div class="text-center">
-    <button type="submit" [disabled]="user.invalid" class="btn btn-primary text-center" >Sign in</button>
+    <button type="submit" [disabled]="user.invalid" class="btn btn-primary text-center" >Registrar</button>
 </div>
 </div>
   </form>
